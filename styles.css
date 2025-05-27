@@ -15,6 +15,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;/
 }
 
 
@@ -35,17 +36,16 @@ html {
     display: flex;
     align-items: center;
     gap: 10px;
-    /* space between logo and text */
     font-weight: bold;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 .logo img {
-  height: 50px;
-  width: 50px;
-  object-fit: cover; 
-  border-radius: 5px; 
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .nav a {
