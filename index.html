@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kei Rest Tsolo Website</title>
     <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="logo"><img src="./Images/photo-1486946255434-2466348c2166.avif" height="50px" width="50px" /> 
+        <div class="logo"><img src="./Images/photo-1486946255434-2466348c2166.avif" height="50px" width="50px" />
             KEI REST - TSOLO</div>
         <nav class="nav">
             <a href="#home">Home</a>
@@ -60,7 +61,6 @@
                 <div class="carousel-item"><img src="./Images/photo-1618221195710-dd6b41faaea6.avif" /></div>
                 <div class="carousel-item"><img src="./Images/premium_photo-1678375722686-c7ea507c3003.avif" /></div>
                 <div class="carousel-item"><img src="./Images/premium_photo-1689609950112-d66095626efb.avif" /></div>
-                <!-- Add more items as needed -->
             </div>
             <button class="carousel-btn" onclick="scrollCarousel(1)">&#8250;</button>
         </div>
@@ -107,14 +107,6 @@
         <p>&copy; 2025 Kei Rest Tsolo | <a href="">By Bahle Gaji</a> | <a href="#">Terms & Conditions</a> | <a
                 href="#">Privacy Policy</a></p>
     </footer>
-    <script>
-        function scrollCarousel(direction) {
-            const container = document.getElementById('carousel');
-            const scrollAmount = 150; // Adjust based on item width + gap
-            container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
-        }
-    </script>
-
 </body>
 
 </html>
