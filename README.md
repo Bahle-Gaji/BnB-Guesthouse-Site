@@ -1,2 +1,2 @@
-# Kei-Rest-Tsolo-Guesthouse
+BnB-Guesthouse-Site
 A single page, static, website for Kei Rest Guesthouse in Tsolo, Eastern Cape, South Africa.
